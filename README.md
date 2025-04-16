@@ -51,15 +51,15 @@ npm run start:dev
 
 ## 📄 API Endpoints
 
-| Method | Path             | Description                    |
-|--------|------------------|--------------------------------|
-| POST   | /auth/register   | Register a new user            |
-| POST   | /auth/login      | Login and get JWT              |
-| GET    | /users/me        | Get Own user information       |
-| GET    | /users/search    | Advanced search by first_name, |
-|        |                  | last_name and age              |
-| DELETE | /users/          | Delete own user                |
-| POST   | /friends/:id     | Send friend request            |
-| GET    | /friends/        | View all friends               |
-| GET    | /friends/requests| View incoming friend requests  |
-| PUT    | /friends/:id     | Accept or Decline a request    |
+| Method | Path                  | Description                    |
+|--------|-----------------------|--------------------------------|
+| POST   | /auth/register        | Register a new user            |
+| POST   | /auth/login           | Login and get JWT              |
+| GET    | /users/me             | Get Own user information       |
+| GET    | /users/search         | Advanced search by first_name, |
+|        |                       | last_name and age              |
+| DELETE | /users/               | Delete own user                |
+| POST   | /friends/:receiver_id | Send friend request            |
+| GET    | /friends/             | View all friends               |
+| GET    | /friends/requests     | View incoming friend requests  |
+| PUT    | /friends/:id          | Accept or Decline a request    |
