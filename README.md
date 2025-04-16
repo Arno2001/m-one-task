@@ -34,11 +34,14 @@ This project is a clean, from-scratch back-end API for a simple social networkin
 # Clone the repository
 git clone https://github.com/Arno2001/m-one-task.git
 
+# Get project direction
+cd m-one-task
+
+# Copy env.example file then add db and jwt config to .env file
+cp .env.example .env
+
 # Install dependencies
 npm install
-
-# Copy env.example file then add config to .env file
-cp .env.example .env
 
 # Create database tables
 npm run init:db
