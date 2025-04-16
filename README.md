@@ -57,7 +57,7 @@ npm run start:dev
 | POST   | /auth/login      | Login and get JWT              |
 | GET    | /users/me        | Get Own user information       |
 | GET    | /users/search    | Advanced search by first_name, |
-|                             last_name and age              |
+|        |                  | last_name and age              |
 | DELETE | /users/          | Delete own user                |
 | POST   | /friends/:id     | Send friend request            |
 | GET    | /friends/        | View all friends               |
